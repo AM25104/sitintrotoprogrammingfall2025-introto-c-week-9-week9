@@ -19,7 +19,7 @@ int main(void) {
 
     printf("Output\n");
     for (int i = 0; i < 3; i++) {
-        /* print columns reversed (horizontal flip) */
+       
         for (int j = 2; j >= 0; j--) {
             printf("%d ", a[i][j]);
         }
@@ -28,5 +28,6 @@ int main(void) {
 
     return 0;
 }
+
 
 
